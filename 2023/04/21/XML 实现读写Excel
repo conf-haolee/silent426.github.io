@@ -5,8 +5,8 @@
   <meta name="Volantis" content="6.0.0-alpha.1">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://example.com/tags/c/"/>
+  
+  <link rel="canonical" href="http://example.com/2023/04/21/xml 实现读写excel"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,18 +33,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Tag: C++ - cvhao's library</title>
-  <meta name="keywords" content="null">
+  <title>XML 实现读写Excel？ - cvhao's library</title>
+  <meta name="keywords" content="Excel,XML,null">
   <meta desc name="description" content="haolees blogs - John Doe - cvhao's library">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="cvhao&#39;s library">
-<meta property="og:url" content="http://example.com/tags/C/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="XML 实现读写Excel？">
+<meta property="og:url" content="http://example.com/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel">
 <meta property="og:site_name" content="cvhao&#39;s library">
-<meta property="og:description" content="haolees blogs">
+<meta property="og:description" content="1 什么是XML XML(extensible Markup Language)可扩展标记语言 XML 是独立于软件和硬件的信息传输工具。 XML 标签没有预定义。需要您自行定义标签。  背景：07版本后的Office系列的文档，包括Excel，Word,PPT 这些文档，都是使用XML方式存储的。 而Office的Open XML文件格式规范是一个开放的国际标准，是ECMA376标准，ECMA-">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-04-21T02:27:08.800Z">
+<meta property="article:modified_time" content="2023-04-27T09:52:42.018Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Excel">
+<meta property="article:tag" content="XML">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -1985,7 +1989,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2288,29 +2292,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/21/Qxlsx 实现Excel读写/">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/21/XML 实现读写Excel?/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="cvhao's library">
   </span>
@@ -2319,225 +2303,278 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="haolees blogs">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
+  <div class="article-meta" id="top">
+    
+    
+    
+      <h1 class="title" itemprop="name headline">
+        XML 实现读写Excel？
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">cvhao</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  
+  
+  
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/C-%E5%BC%80%E5%8F%91/">C++开发</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/C-%E5%BC%80%E5%8F%91/" itemprop="url"><span itemprop="name">C++开发</span></a>
+      </span>
+    
+  </div>
+  
+
+
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-04-21T10:27:08+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：Apr 21, 2023</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h2 id="1-什么是XML"><a href="#1-什么是XML" class="headerlink" title="1 什么是XML"></a>1 什么是XML</h2><ul>
+<li>XML(extensible Markup Language)<strong>可扩展标记语言</strong></li>
+<li>XML 是独立于软件和硬件的信息传输工具。</li>
+<li>XML 标签没有预定义。需要您自行定义标签。</li>
+</ul>
+<h3 id="背景："><a href="#背景：" class="headerlink" title="背景："></a><strong>背景：</strong></h3><p><strong>07版本</strong>后的Office系列的文档，包括Excel，Word,PPT 这些文档，都是使用XML方式存储的。</p>
+<p>而Office的Open XML文件格式规范是一个开放的国际标准，是ECMA376标准，<a target="_blank" rel="noopener" href="https://www.ecma-international.org/publications-and-standards/standards/ecma-376/">ECMA-376 - Ecma International (ecma-international.org)</a></p>
+<p>可以通过学习这个SDK，则需要了解Excel里面XML的组成元素，可以查阅ECMA376这个标准的定义。</p>
+<p>了解Excel的内部组成，也会对于后期操作Exce的精确度，以及性能优化也是有帮助。</p>
+<p>另外，由于是操作XML，所有Open XML SDK只能使用于07版本后的Office。</p>
+<h2 id="2-Office-Open-XML允许导入其他程序创建的XML程序"><a href="#2-Office-Open-XML允许导入其他程序创建的XML程序" class="headerlink" title="2 Office Open XML允许导入其他程序创建的XML程序"></a>2 Office Open XML允许导入其他程序创建的XML程序</h2><p><strong>Office Open XM</strong>L简称为 ooxml ，是Microsoft 在 Office 2007 之后推行的标准格式，用在 Excel, Word, PPT 等文件。已确定为国际标准。</p>
+<p>Open-Xml SDK是Microsoft提供操作ooxml格式的接口类库，是**c#**实现的，2014年开源的</p>
+<p>开源地址：<a target="_blank" rel="noopener" href="https://github.com/dotnet/Open-XML-SDK">dotnet&#x2F;Open-XML-SDK: Open XML SDK by Microsoft (github.com)</a></p>
+<p>官方介绍文档：<a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/office/open-xml/open-xml-sdk">欢迎使用 Open XML SDK 2.5 for Office | Microsoft Learn</a></p>
+<p><strong>ECMA-376指定了一系列XML模式，统称为Office Open XML</strong>，它们定义了文字处理、电子表格和演示文稿的词汇表，以及符合这些架构的文档。其目标是通过最广泛的工具和工具实现Office Open XML格式平台，促进办公生产力应用程序和业务线系统之间的互操作性。</p>
+<p>关于支持和加强文件存档和保存，所有这些都完全符合现有的Microsoft Office文档语料库。</p>
+<h2 id="3-Excel-主要处理两种类型的-XML-文件："><a href="#3-Excel-主要处理两种类型的-XML-文件：" class="headerlink" title="3 Excel 主要处理两种类型的 XML 文件："></a>3 Excel 主要处理两种类型的 XML 文件：</h2><ul>
+<li>XML 数据文件 (.xml)，此类型文件包含自定义标记和结构化数据。</li>
+<li>架构文件 (.xsd)，此类型文件包含强制实施规则（例如数据类型和验证）的架构标记。</li>
+</ul>
+<p>通过使用 XML 和 Excel，可以采用以前不可能或非常难以实现的方式来管理工作簿和数据。 通过使用 XML 映射，可以轻松地从 Excel 文档中添加、确定和提取特定业务数据。 </p>
+<h2 id="4-在-Excel-中使用-XML-数据的基本过程"><a href="#4-在-Excel-中使用-XML-数据的基本过程" class="headerlink" title="4 在 Excel 中使用 XML 数据的基本过程"></a>4 在 Excel 中使用 XML 数据的基本过程</h2><img src="https://raw.githubusercontent.com/silent426/Images/master/uPic/image-20230427084653563.png" class="lazyload" data-srcset="https://raw.githubusercontent.com/silent426/Images/master/uPic/image-20230427084653563.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="image-20230427084653563" style="zoom:50%;" />
+
+<p><img src="https://raw.githubusercontent.com/silent426/Images/master/uPic/33b01683-b699-40a3-995d-7a3767972f41.gif" class="lazyload" data-srcset="https://raw.githubusercontent.com/silent426/Images/master/uPic/33b01683-b699-40a3-995d-7a3767972f41.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="标注 1"> 向工作簿 (.xsd) XML 架构文件</p>
+<p><img src="https://support.content.office.net/zh-cn/media/7a93dc87-c787-4bd5-a922-2643b09a1050.gif" class="lazyload" data-srcset="https://support.content.office.net/zh-cn/media/7a93dc87-c787-4bd5-a922-2643b09a1050.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="标注 2"> 将 XML 架构元素映射到单个单元格或 XML 表</p>
+<p><img src="https://support.content.office.net/zh-cn/media/3a54d364-2462-4aa8-908a-1a945ad204a1.gif" class="lazyload" data-srcset="https://support.content.office.net/zh-cn/media/3a54d364-2462-4aa8-908a-1a945ad204a1.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="标注 3"> XML 数据文件导入 (.xml) XML 元素绑定到映射单元格</p>
+<p><img src="https://raw.githubusercontent.com/silent426/Images/master/uPic/ef4ba60c-3a82-476e-a5f4-1d2a11640e69.gif" class="lazyload" data-srcset="https://raw.githubusercontent.com/silent426/Images/master/uPic/ef4ba60c-3a82-476e-a5f4-1d2a11640e69.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="标注 4"> 输入数据、移动映射单元格和利用Excel功能，同时保留 XML 结构和定义</p>
+<p><img src="https://raw.githubusercontent.com/silent426/Images/master/uPic/87d49a12-bd22-4aeb-8423-d562b78c10e8.gif" class="lazyload" data-srcset="https://raw.githubusercontent.com/silent426/Images/master/uPic/87d49a12-bd22-4aeb-8423-d562b78c10e8.gif" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="标注 5"> 将修改后的数据从映射单元格导出到 XML 数据文件</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>目前了解的C++ 读写Excel 第三方库已有：</p>
+<p>QXls库，Qxlnt库，xlnt，直接使用openXML</p>
+<ul>
+<li>QXls库可用，简单易用。两个主要缺点： 一个是 不支持多线程（已经用Qthread 两种方法验证，Thread 还没验证），另一个是不支持Excel公式</li>
+<li>Qxlnt 基于xlnt 可用，支持公式，使用C++14以上</li>
+<li>xlnt库. 符合ECMA 第四版本</li>
+<li>Office openXML （用C#写的，直接放弃）最底层，效率高，同时难度大。</li>
+</ul>
+
+  </div>
+  
   
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/04/21/Qxlsx%20%E5%AE%9E%E7%8E%B0Excel%E8%AF%BB%E5%86%99/"  itemprop="url">
-        Qxlsx 实现Excel读写
-      </a>
-    </h2>
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
+      
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
+      
+    </div>
   
-  <div class='md article-desc' itemprop="articleBody">
+  
+    
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-04-27T17:52:42+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：Apr 27, 2023</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+  
+  
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Excel/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>Excel</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/XML/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>XML</p></a></div>
+  <span hidden itemprop="keywords">Excel XML</span>
+  
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
       
-        1. 介绍
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel?/&title=XML 实现读写Excel？ - cvhao's library&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel?/&title=XML 实现读写Excel？ - cvhao's library&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel?/&title=XML 实现读写Excel？ - cvhao's library&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/2023/04/21/Qxlsx%20%E5%AE%9E%E7%8E%B0Excel%E8%AF%BB%E5%86%99/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>Qxlsx 实现Excel读写</p>
+          <p class='content'>1. 介绍
 Qxlsx 是一个第三方的Excel文件读写库，使用C++ 与 Qt开发。
 由于QtXlsx2014 年不再维护，该项目2017年起，基于Qtxlsx开发。
-GitHub库：QtExcel&#x2F;QXlsx
-前身：Qtxlsx两种方法开始使用Qtxlsx写一个新Excel 文件
-
-方法1：使用Xlsx作为Qt5的插件模块
-
-要使用perl
-
-方法2: 直接使用源代码
-
-win...
+GitHub库：QtEx...</p>
+        </a>
       
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-04-21T16:42:07+08:00">2023-04-21</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/C-%E5%BC%80%E5%8F%91/">C++开发</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/C-%E5%BC%80%E5%8F%91/" itemprop="url"><span itemprop="name">C++开发</span></a>
-            </span>
-          
-        
-      </div>
       
-        <div>
-          <a class='readmore' href='/2023/04/21/Qxlsx%20%E5%AE%9E%E7%8E%B0Excel%E8%AF%BB%E5%86%99/' itemprop="url">
-            Read More
-          </a>
-        </div>
+        <a class='next' href='/2023/04/13/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%97%A5%E5%BF%97/'>
+          <p class='title'>个人博客日志<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>1、博客园稳定可用www.cnblogs.com/cvhao/
+
+ vscode 博客园插件 测试可用  
+ 解决图片插入问题
+
+2、github + hexo目前异常
+
+ 自动部署
+ 域名绑定...</p>
+        </a>
       
     </div>
   
+  <!-- 文章推荐 -->
+  
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
 
-</div>
 
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2019/02/13/C++提高编程/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="cvhao's library">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="cvhao's library">
-    <meta itemprop="description" content="haolees blogs">
-  </span>
   
-  
-  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+      <meta itemprop="discussionUrl" content="/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel#comments">
     </span>
-  
-  
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2019/02/13/C++%E6%8F%90%E9%AB%98%E7%BC%96%E7%A8%8B/"  itemprop="url">
-        C++ 提高编程
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        C++提高编程
-本阶段主要针对C++&#x3D;&#x3D;泛型编程&#x3D;&#x3D;和&#x3D;&#x3D;STL&#x3D;&#x3D;技术做详细讲解，探讨C++更深层的使用
 
-1 模板1.1 模板的概念模板就是建立通用的模具，大大提高复用性
-例如生活中的模板
-一寸照片模板：
+    <div id="layoutHelper-comments"></div>
 
-PPT模板：
+  </article>
 
 
-模板的特点：
-
-模板不可以直接使用，它只是一个框架
-模板的通用并不是万能的
-
-1.2...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2019-02-13T09:05:24+08:00">2019-02-13</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E5%9F%BA%E7%A1%80%E5%AE%9D%E5%85%B8/">基础宝典</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E5%9F%BA%E7%A1%80%E5%AE%9D%E5%85%B8/" itemprop="url"><span itemprop="name">基础宝典</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2019/02/13/C++%E6%8F%90%E9%AB%98%E7%BC%96%E7%A8%8B/' itemprop="url">
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2019/01/17/C++核心编程/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="cvhao's library">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="cvhao's library">
-    <meta itemprop="description" content="haolees blogs">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2019/01/17/C++%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B/"  itemprop="url">
-        C++ 核心编程
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        C++核心编程本阶段主要针对C++&#x3D;&#x3D;面向对象&#x3D;&#x3D;编程技术做详细讲解，探讨C++中的核心和精髓。
-1 内存分区模型C++程序在执行时，将内存大方向划分为4个区域
-
-代码区：存放函数体的二进制代码，由操作系统进行管理的
-全局区：存放全局变量和静态变量以及常量
-栈区：由编译器自动分配释放, 存放函数的参数值,局部变量等
-堆区：由程序员分配和释放,若程序员不...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2019-01-17T11:00:11+08:00">2019-01-17</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C/">速查手册</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C/" itemprop="url"><span itemprop="name">速查手册</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2019/01/17/C++%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B/' itemprop="url">
-            Read More
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
-  
-    
-  
 
 
-    
-  
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2546,150 +2583,31 @@ PPT模板：
     
     
       
-<section class="widget blogger desktop mobile ">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/Logo-NavBar@3x.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">cvhao's library</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="https://1lib.tk/"
-              class="social fa-solid fa-archive flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:2284635718@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/silent426/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/C-%E5%BC%80%E5%8F%91/" href="/categories/C-%E5%BC%80%E5%8F%91/"
-            active-action="action-categoriesC-E5BC80E58F91"
-            ><div class='name'>C++开发</div><div class='badge'>(3)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/Qt/" href="/categories/Qt/"
-            active-action="action-categoriesQt"
-            ><div class='name'>Qt</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%9F%BA%E7%A1%80%E5%AE%9D%E5%85%B8/" href="/categories/%E5%9F%BA%E7%A1%80%E5%AE%9D%E5%85%B8/"
-            active-action="action-categoriesE59FBAE7A180E5AE9DE585B8"
-            ><div class='name'>基础宝典</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/" href="/categories/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/"
-            active-action="action-categoriesE5B7A5E4BD9CE697A5E5BF97"
-            ><div class='name'>工作日志</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E7%BD%91%E9%A1%B5%E5%89%8D%E7%AB%AF/" href="/categories/%E7%BD%91%E9%A1%B5%E5%89%8D%E7%AB%AF/"
-            active-action="action-categoriesE7BD91E9A1B5E5898DE7ABAF"
-            ><div class='name'>网页前端</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"
-            active-action="action-categoriesE8AFBBE4B9A6E7AC94E8AEB0"
-            ><div class='name'>读书笔记</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C/" href="/categories/%E9%80%9F%E6%9F%A5%E6%89%8B%E5%86%8C/"
-            active-action="action-categoriesE9809FE69FA5E6898BE5868C"
-            ><div class='name'>速查手册</div><div class='badge'>(2)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/C/" style="font-size: 24px; color: #555">C++</a> <a href="/tags/Excel/" style="font-size: 14px; color: #999">Excel</a> <a href="/tags/Qt/" style="font-size: 24px; color: #555">Qt</a> <a href="/tags/Qxlnt/" style="font-size: 14px; color: #999">Qxlnt</a> <a href="/tags/Qxlsx/" style="font-size: 14px; color: #999">Qxlsx</a> <a href="/tags/Volantis/" style="font-size: 14px; color: #999">Volantis</a> <a href="/tags/XML/" style="font-size: 14px; color: #999">XML</a> <a href="/tags/git/" style="font-size: 14px; color: #999">git</a> <a href="/tags/github/" style="font-size: 14px; color: #999">github</a> <a href="/tags/hexo/" style="font-size: 19px; color: #777">hexo</a> <a href="/tags/xlnt/" style="font-size: 14px; color: #999">xlnt</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 14px; color: #999">博客</a> <a href="/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" style="font-size: 14px; color: #999">多线程</a>
-    </div>
-  </section>
-
-
-    
-  
-
   
 
 
 <div class="widget-sticky">
+
+  
+  
+
+
+<section class="widget toc-wrapper desktop mobile" id="toc-div" >
+  
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%BB%80%E4%B9%88%E6%98%AFXML"><span class="toc-text">1 什么是XML</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%83%8C%E6%99%AF%EF%BC%9A"><span class="toc-text">背景：</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Office-Open-XML%E5%85%81%E8%AE%B8%E5%AF%BC%E5%85%A5%E5%85%B6%E4%BB%96%E7%A8%8B%E5%BA%8F%E5%88%9B%E5%BB%BA%E7%9A%84XML%E7%A8%8B%E5%BA%8F"><span class="toc-text">2 Office Open XML允许导入其他程序创建的XML程序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-Excel-%E4%B8%BB%E8%A6%81%E5%A4%84%E7%90%86%E4%B8%A4%E7%A7%8D%E7%B1%BB%E5%9E%8B%E7%9A%84-XML-%E6%96%87%E4%BB%B6%EF%BC%9A"><span class="toc-text">3 Excel 主要处理两种类型的 XML 文件：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%9C%A8-Excel-%E4%B8%AD%E4%BD%BF%E7%94%A8-XML-%E6%95%B0%E6%8D%AE%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%87%E7%A8%8B"><span class="toc-text">4 在 Excel 中使用 XML 数据的基本过程</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-text">总结</span></a></li></ol>
+  </div>
+</section>
+
+  
 
 </div>
 
@@ -2697,6 +2615,7 @@ PPT模板：
   
   <!-- Custom Files side end -->
 </aside>
+
 
 
         </div>
@@ -3177,7 +3096,7 @@ PPT模板：
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"cvhao's library","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"haolees blogs"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"cvhao's library"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/tags/C++/","name":"C++"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"cvhao's library","url":"http://example.com/","keywords":null,"description":"haolees blogs","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"haolees blogs"},"publisher":{"@type":"Organization","name":"cvhao's library","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"haolees blogs","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"cvhao's library","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"cvhao's library","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"haolees blogs"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"cvhao's library"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/C-开发/","name":"C++开发"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/04/21/XML 实现读写Excel?/","name":"XML 实现读写Excel？"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"cvhao's library","url":"http://example.com/","keywords":null,"description":"haolees blogs","author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"haolees blogs"},"publisher":{"@type":"Organization","name":"cvhao's library","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"XML 实现读写Excel？","description":"haolees blogs","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel?/"},"author":{"@type":"Person","name":"John Doe","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"cvhao's library","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/04/21/XML%20%E5%AE%9E%E7%8E%B0%E8%AF%BB%E5%86%99Excel?/","wordCount":0,"datePublished":"2023-04-21T02:27:08.800Z","dateModified":"2023-04-27T09:52:42.018Z","articleSection":"C++开发","keywords":"Excel,XML","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
